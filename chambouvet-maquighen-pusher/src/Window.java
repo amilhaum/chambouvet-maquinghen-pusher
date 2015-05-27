@@ -6,11 +6,12 @@ import javax.swing.JLabel;
 public class Window extends JFrame
 {
 	public int COLUMNS=8;
+	
 	public int ROWS=9;
 	
 	public Window()
 	{
-		this.setTitle("Game : SOKOBAN");
+		this.setTitle("SOKOBAN");
 	    this.setSize(800,900);
 	    this.setLocationRelativeTo(null);
 	    this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);             
@@ -29,6 +30,6 @@ public class Window extends JFrame
 		}
 	}
 	
-//TODO Utiliser la classe map pour obtenir ce que chaque case contient et l'afficher (probleme références aux méthodes ?)
+//TODO contenu des cases dans un tableau puis affichage dans swing ?
+	
 }
-

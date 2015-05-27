@@ -100,7 +100,7 @@ public class Map {
 	}
 	
 	/**
-	 * Return the quare at the given position
+	 * Return the square at the given position
 	 * @param p_position the position to search
 	 * @return square at the position
 	 */
